@@ -1,0 +1,243 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.menu-bar{
+    background: rgb(0,100,0);
+    text-align: center;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px; ;
+
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.active, .menu-bar ul li:hover{
+    background: #2bab0d;
+    border-radius: 3px;
+}
+.menu-bar .fa{
+    margin-right: 8px;
+}
+
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: rgb(0,100,0);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color: #b2ff00;
+}
+.fa-angle-right{
+    float: right;
+}
+
+.sub-menu-2{
+    display: none;
+}
+
+.hover-me:hover .sub-menu-2{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: rgb(0,100,0);
+
+}
+/*=============================================================*/
+.mySlides {
+    display:none;
+    max-height: 500px;
+    max-width: 1500px;
+}
+
+.dott{
+    position: absolute;
+    padding: 400px 50px ;
+    margin: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+/*===================sections====================*/
+/*===============1st section starts==========*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.section{
+  width: 100%;
+  min-height: 70vh;
+  background-color: #ddd;
+}
+.container{
+  width: 80%;
+  display: block;
+  margin-left: 60px;
+  padding-top: 50px;
+}
+.content-section{
+  float: right;
+  width: 55%;
+  margin-top: 0px;
+}
+.Image-section{
+  float: left;
+  width: 40%;
+  min-height: auto;
+  
+
+}
+.Image-section img{
+  width: 50%;
+  height: 50%;
+}
+.content-section  .title{
+  text-transform: uppercase;
+  font-size: 25px;
+}
+.content-section .content h3{
+  margin-top: 20px;
+  color: #5d5d5d;
+  font-size: 20px;
+}
+.content-section .content p{
+  margin-top: 10px;
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.content-section .content .button{
+  margin: 30px;
+
+}
+.content-section .content .button a{
+  border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #4CAF50;
+  letter-spacing: 2px;
+}
+/*===============1st section ends======*/
+/*===============2nd section starts======*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.section1{
+  width: 100%;
+  min-height: 70vh;
+  background-color: #ddd;
+}
+.container1{
+  width: 80%;
+  display: block;
+  margin-left: 60px;
+  padding-top: 50px;
+}
+.content-section1{
+  float: left;
+  width: 55%;
+  margin-top: 0px;
+}
+.Image-section1{
+  float: right;
+  width: 40%;
+  min-height: auto;
+  
+
+}
+.Image-section img1{
+  width: 50%;
+  height: 50%;
+}
+.content-section  .title1{
+  text-transform: uppercase;
+  font-size: 25px;
+}
+.content-section1 .content1 h3{
+  margin-top: 20px;
+  color: #5d5d5d;
+  font-size: 20px;
+}
+.content-section1 .content1 p{
+  margin-top: 10px;
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.content-section1 .content1 .button1{
+  margin: 30px;
+
+}
+.content-section1 .content1 .button1 a{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #4CAF50;
+  letter-spacing: 2px;
+}
+/*===============2nd section ends======*/
+/*=====contact box====*/
+
+/* Footer Section */
+.container-fluid{
+  max-width: 1000px;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 20px;
+}

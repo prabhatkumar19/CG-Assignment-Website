@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <!--FontAwesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>CG Project</title>
+</head>
+<body>
+    <!--NavBar Start-->
+    <div class = "menu-bar">
+    <ul>
+        <li class="active"><a href="#"><i class="fa fa-home"></i>HOME</a></li>
+        <li><a href="#">HARDWARE</a><i class="fa fa-caret-down"></i>
+            <div class="sub-menu-1">
+                <ul>
+                    <li class="hover-me"><a href="#">INPUT DEVICE</a><i class="fa fa-angle-right"></i>
+                    <div class="sub-menu-2">
+                        <ul>
+                            <li><a href="#TP">TOUCH PANNEL</a></li>
+                            <li><a href="#LP">LIGHT PEN</a></li>
+                            <li><a href="#GP">GRAPHIC TABLET</a></li>
+                            <li><a href="#MP">MICRO-PHONES</a></li>
+                            <li><a href="#FR">FILM RECORDER</a></li>
+                            <li><a href="#MO">MOUSE</a></li>
+                            <li><a href="#JOY">JOYSTRICKS</a></li>
+                            <li><a href="#KEY">KEYBOARD</a></li>
+                            <li><a href="#DG">DATA-GLOVES</a></li>
+                            <li><a href="#IM">IMAGE-SCANNER</a></li>
+                        </ul>
+                    </div>
+                     </li>
+                    <li class="hover-me"><a href="#">OUTPUT DEVICE</a><i class="fa fa-angle-right"></i>
+                    <div class="sub-menu-2">
+                        <ul>
+                            <li><a href="#crt">CRT</a></li>
+                            <li><a href="#">VECTOR SCAN DISPLAY</a></li>
+                            <li><a href="#rs">RANDOM SCAN DISPLAY</a></li>
+                            <li><a href="#RS">RASTER SCAN DISPLAY</a></li>
+                            <li><a href="#">COLOURED MONITORS</a></li>
+                            <li><a href="#lcd">LED,LCD</a></li>
+                        </ul>
+                    </div>
+                    
+                    
+                    </li>
+                </ul>
+            </div>
+
+
+        </li>
+        <li><a href="#">SOFTWARE</a><i class="fa fa-caret-down"></i>
+            <div class="sub-menu-1">
+                <ul>
+                    <li><a href="#ps">PHOTOSHOP</a></li>
+                    <li><a href="#md">MAYA 3D</a></li>
+                    <li><a href="#">CAD S/W</a></li>
+                    <li><a href="#">COREL DRAW</a></li>
+                </ul>
+            </div>
+        
+        
+        
+        </li>
+        
+    </ul>
+    </div>
+    <!--NavBar Ends-->
+    <!--slideShare Starts-->
+    <div class="w3-content w3-section">
+        <div class="dott">
+            <h1 style="color: blue;font-family:courier; text-align: center;">HARDWARES & SOFTWARES</h1>
+            <hr>
+            
+            <P style="color: brown; text-align: center;">OF COMPUTER GRAPHIC</P>
+        </div>
+            
+        <img class="mySlides" src="Images/Touch-Panel1.jpg" style="width:100%">
+        <img class="mySlides" src="Images/Light-Pen1.jpg" style="width:100%">
+        <img class="mySlides" src="Images/Graphic-Tablet1.jpg" style="width:100%">
+        <img class="mySlides" src="Images/Film-Recorder1.jpg" style="width:100%">
+        <img class="mySlides" src="Images/joystrick1.jpg" style="width:100%">
+        <img class="mySlides" src="Images/Mouse1.jfif" style="width:100%">
+        <img class="mySlides" src="Images/Data-glove1.jfif" style="width:100%">
+        <img class="mySlides" src="Images/CRT1.jfif" style="width:100%">
+        <img class="mySlides" src="Images/Graphic-Tablet1.jpg" style="width:100%">
+        
+      </div>
+
+      <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 3000); 
+        }
+        </script>
+        <!--SlideShare Ends-->
+        <!--Tools starts-->
+        <!---1st section starts-->
+        <div class="section" id="TP">
+            <div class="container">
+                <div class="content-section">
+                    <div class="title">
+                        <h1>TOUCH PANEL</h1>
+                    </div>
+                    
+                    <div class="content">
+                        <h3></h3>
+                        <p>An electronic visual display that locates the  
+                            coordinates of a user touch within display area works independently
+                            of what is  being displayed on screen.
+                        </p>
+                        <div class="button">
+                            <a href="https://www.javatpoint.com/computer-graphics-input-devices">Learn-More</a>
+                            <a href="https://www.youtube.com/watch?v=BgGADYtIhgk">Video</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="Image-section">
+                    <img src="Images/Touch-Panel1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <!---1st section ends-->
+        <!---2nd section starts-->
+        <div class="section1" id="LP">
+            <div class="container1">
+                <div class="content-section1">
+                    <div class="title1">
+                        <h1>LIGHT PEN</h1>
+                    </div>
+                    
+                    <div class="content1">
+                        <h3></h3>
+                        <p> A Light Pen  is a  Pencil-sharped  input device that are used
+                            to select screen positions by detecting the light comming from
+                            points on the screen.
+                        </p>
+                        <div class="button1">
+                            <a href="https://www.javatpoint.com/computer-graphics-input-devices">Learn-More</a>
+                            <a href="https://www.youtube.com/watch?v=BgGADYtIhgk">Video</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="Image-section1">
+                    <img src="Images/Light-Pen2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <!--2nd section ends-->
+        <!---3rd section starts-->
+        <div class="section" id="GP">
+            <div class="container">
+                <div class="content-section">
+                    <div class="title">
+                        <h1>GRAPHIC TABLET</h1>
+                    </div>
+                    
+                    <div class="content">
+                        <h3></h3>
+                        <p>A Graphic tablets is a natural input device that converts information 
+                            from handheld stylus.
+                            Also called <i>Drawing tablet</i> or <i>Pen tablet</i>
+                        </p>
+                        <div class="button">
+                            <a href="https://www.assignmentpoint.com/science/computer/computer-input-device-graphic-tablets.html">Learn-More</a>
+                            <a href="https://www.youtube.com/watch?v=BgGADYtIhgk">Video</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="Image-section">
+                    <img src="Images/Graphic-Tablet2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <!---3rd section ends-->
+        <!---4th section starts-->
+        <div class="section1" id="MO">
+            <div class="container1">
+                <div class="content-section1">
+                    <div class="title1">
+                        <h1>MOUSE</h1>
+                    </div>
+                    
+                    <div class="content1">
+                        <h3></h3>
+                        <p>Hand-Held BOX used to position the screen Cursor.
+                            wheels or Rollers (Now-a-Days leser lights) on of the screen.
+                            Generally there are two or three buttons in it.
+                        </p>
+                        <div class="button1">
+                            <a href="https://www.javatpoint.com/computer-graphics-input-devices">Learn-More</a>
+                            <a href="https://www.youtube.com/watch?v=eccSwn9QVxo">Video</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="Image-section1">
+                    <img src="Images/Mouse1.jfif" alt="">
+                </div>
+            </div>
+        </div>
+        <!--4th section ends-->
+        <!---5th section starts-->
+        <div class="section" id="FR">
+            <div class="container">
+                <div class="content-section">
+                    <div class="title">
+                        <h1>FILM RECORDER</h1>
+                    </div>
+                    
+                    <div class="content">
+                        <h3></h3>
+                        <p>A Film Recorder is a graphical output device for transferring 
+                            digital images to photographic film.</p>
+                        <div class="button">
+                            <a href="https://en-academic.com/dic.nsf/enwiki/281095">Learn-More</a>
+                            <a href="https://www.youtube.com/watch?v=BgGADYtIhgk">Video</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="Image-section">
+                    <img src="Images/Film-Recorder2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <!---5th section ends-->
+        <!---6th section starts-->
+        <div class="section1" id="MP">
+            <div class="container1">
+                <div class="content-section1">
+                    <div class="title1">
+                        <h1>MICRO PHONE</h1>
+                    </div>
+                    
+                    <div class="content1">
+                        <h3></h3>
+                        <p>A microphone is a device that captures audio by converting sound waves into an electrical signal.
+                             This signal can be amplified as an analog signal or may be converted to a digital signal,
+                              which can be processed by a computer or other digital audio device.
+                        </p>
+                        <div class="button1">
+                            <a href="avatpoint.com/microphone#:~:text=A%20microphone%20is%20an%20input,a%20digital%20or%20analog%20signal.">Learn-More</a>
+                            <a href="https://www.youtube.com/watch?v=PE6Qn4ZiEyo">Video</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="Image-section1">
+                    <img src="Images/Micro-Phone2.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+        <!--6th section ends-->
+        <!---7th section starts-->
+        <div class="section" id="JOY">
+            <div class="container">
+                <div class="content-section">
+                    <div class="title">
+                        <h1>JOYSTRICKS</h1>
+                    </div>
+                    
+                    <div class="content">
+                        <h3></h3>
+                        <p> A joystick is a cursor control device used in computer games and assistive technology .
+                             The joystick, which got its name from the control stick used by a pilot to control the ailerons
+                              and elevators of an airplane, is a hand-held lever that pivots on one end and transmits its 
+                              coordinates to a computer.
+                        </p>
+                        <div class="button">
+                            <a href="https://www.javatpoint.com/computer-graphics-input-devices">Learn-More</a>
+                            <a href="https://www.youtube.com/watch?v=JG_pea_aqpQ">Video</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="Image-section">
+                    <img src="Images/joystrick2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <!---7th section ends-->
+        <!---8th section starts-->
+        <div class="section1" id="KEY">
+            <div class="container1">
+                <div class="content-section1">
+                    <div class="title1">
+                        <h1>KEYBOARD</h1>
+                    </div>
+                    
+                    <div class="content1">
+                        <h3>It is a device primarily used to enter TEXT Strings.</h3>
+                        <p> In Graphic.
+                            Used to provide screen coordinates.
+                            Menu selections.
+                            Gamming Controls.
+                        </p>
+                        <div class="button1">
+                            <a href="https://www.javatpoint.com/computer-graphics-input-devices">Learn-More</a>
+                            <a href="https://www.youtube.com/watch?v=JG_pea_aqpQ">Video</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="Image-section1">
+                    <img src="Images/keyboard1.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+        <!--8th section ends-->
+        <!---9th section starts-->
+        <div class="section" id="DG">
+            <div class="container">
+                <div class="content-section">
+                    <div class="title">
+                        <h1>DATA GLOVE</h1>
+                    </div>
+                    
+                    <div class="content">
+                        <h3>Used sensors to detect the hand and finger motions.</h3>
+                        <p>Electromagnetic coupling between signals provides information
+                            about the position and orientation of the HAND.
+                        </p>
+                        <div class="button">
+                            <a href="https://www.education-guru.us/2020/11/Data-Glove-Computer-Graphics.html">Learn-More</a>
+                            <a href="https://www.youtube.com/watch?v=DaDcuAbPLzw" >Video</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="Image-section">
+                    <img src="Images/Data-glove2.jfif" alt="">
+                </div>
+            </div>
+        </div>
+        <!---9th section ends-->
+        <!---10th section starts-->
+        <div class="section1" id="IM">
+            <div class="container1">
+                <div class="content-section1">
+                    <div class="title1">
+                        <h1>IMAGE SCANNER</h1>
+                    </div>
+                    
+                    <div class="content1">
+                        <h3></h3>
+                        <p>Image Scanner is a device that optically scans Images,
+                            printed texts,Handwritting or on objects and convert it 
+                            to a Digital image.
+                        </p>
+                        <div class="button1">
+                            <a href="https://www.javatpoint.com/computer-graphics-input-devices">Learn-More</a>
+                            <a href="https://www.youtube.com/watch?v=JG_pea_aqpQ">Video</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="Image-section1">
+                    <img src="Images/Images-scanner1.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+        <!--10th section ends-->
+        <!---11th section starts-->
+        <div class="section" id="crt">
+            <div class="container">
+                <div class="content-section">
+                    <div class="title1">
+                        <h1>CRT</h1>
+                    </div>
+                    
+                    <div class="content">
+                        <h3></h3>
+                        <p>A cathode ray tube  is a specialized vacuumtube in which images are
+                             produced when an electron beam strikes aphosphorescent surface.
+                             The CRT in a computer display is similar to the"picture tube" 
+                             in a television receiver.
+                        </p>
+                        <div class="button">
+                            <a href="https://www.javatpoint.com/computer-graphics-cathode-ray-tube">Learn-More</a>
+                            <a href="https://www.youtube.com/watch?v=KihptyvfDh8">Video</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="Image-section">
+                    <img src="Images/CRT2.jfif" alt="">
+                </div>
+            </div>
+        </div>
+        <!--11th section ends-->
+        <!---12th section starts-->
+        <div class="section1" id="rs">
+            <div class="container1">
+                <div class="content-section1">
+                    <div class="title1">
+                        <h1>RANDOM SCAN</h1>
+                    </div>
+                    
+                    <div class="content1">
+                        <h3></h3>
+                        <p>Random Scan display is the use of geometrical primitive such as 
+                            points, lines, curves, and polygons which are all based upon mathematical.
+                        </p>
+                        <div class="button1">
+                            <a href="https://www.javatpoint.com/difference-between-random-scan-and-raster-scan-display">Learn-More</a>
+                            <a href="https://www.youtube.com/watch?v=lTvXNy4HIy4">Video</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="Image-section1">
+                    <img src="Images/Random scan.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+        <!--12th section ends-->
+        <!---13th section starts-->
+        <div class="section" id="lcd">
+            <div class="container">
+                <div class="content-section">
+                    <div class="title1">
+                        <h1>LCD</h1>
+                    </div>
+                    
+                    <div class="content">
+                        <h3></h3>
+                        <p>A liquid crystal display  is a combination of two states of matter,
+                             the solid and the liquid. LCD uses a liquid crystal to produce a visible 
+                             image. Liquid crystal displays are super-thin technology display screens
+                              that are generally used in laptop computer screens, TVs, cell phones and
+                               portable video games. LCD’s technologies allow displays to be much thinner
+                                when compared to a cathode ray tube (CRT) technology.
+                        </p>
+                        <div class="button">
+                            <a href="https://www.javatpoint.com/computer-graphics-flat-panel-display">Learn-More</a>
+                            <a href="https://www.youtube.com/watch?v=QRw-5hmaWvM">Video</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="Image-section">
+                    <img src="Images/Lcd.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <!--13th section ends-->
+        <!---14th section starts-->
+        <div class="section1" id="RS">
+            <div class="container1">
+                <div class="content-section1">
+                    <div class="title1">
+                        <h1>RASTER SCAN</h1>
+                    </div>
+                    
+                    <div class="content1">
+                        <h3>A rectuangular array of points or dot.</h3>
+                        <p> An images is subdivided into a sequence strips known as "scan lines"
+                            which can be further divided into discrete pixels for processing
+                             in a computer system.
+                        </p>
+                        <div class="button1">
+                            <a href="https://www.javatpoint.com/difference-between-random-scan-and-raster-scan-display">Learn-More</a>
+                            <a href="https://www.youtube.com/watch?v=sXZFgrkSVLk">Video</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="Image-section1">
+                    <img src="Images/Raster scan1.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+        <!--14th section ends-->
+        <!---15th section starts-->
+        <div class="section" id="ps">
+            <div class="container">
+                <div class="content-section">
+                    <div class="title1">
+                        <h1>PHOTOSHOP</h1>
+                    </div>
+                    
+                    <div class="content">
+                        <h3></h3>
+                        <p>Adobe Photoshop is the predominant photo editing and manipulation software
+                             on the market. Its uses range from the full-featured editing of large batches 
+                             of photos to creating intricate digital paintings and drawings that mimic
+                              those done by hand.
+                        </p>
+                        <div class="button">
+                            <a href="https://itconnect.uw.edu/learn/workshops/online-tutorials/graphics-and-design-workshops/adobe-cs/photoshop/">Learn-More</a>
+                            <a href="https://www.youtube.com/watch?v=l7waNfsMXHU">Video</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="Image-section">
+                    <img src="Images/PS.png" alt="">
+                </div>
+            </div>
+        </div>
+        <!--15th section ends-->
+        <!---16th section starts-->
+        <div class="section1" id="md">
+            <div class="container1">
+                <div class="content-section1">
+                    <div class="title1">
+                        <h1>MAYA 3D</h1>
+                    </div>
+                    
+                    <div class="content1">
+                        <h3></h3>
+                        <p>Maya is a 3D computer Graphic Application which is used in the development
+                             of video games, 3D applications, animated films, TV series, and any visual effects.
+                              This software can create heavy models, which help us give Ultra 3D effects that 
+                              create a realistic view at the user end
+                        </p>
+                        <div class="button1">
+                            <a href="https://www.educba.com/what-is-maya/?source=leftnav">Learn-More</a>
+                            <a href="https://www.youtube.com/watch?v=TCkOS4F51MI">Video</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="Image-section1">
+                    <img src="Images/Maya3d.jfif" alt="">
+                </div>
+            </div>
+        </div>
+        <!--16th section ends-->
+    <div class="container-fluid">
+      <p>© Copyright 2021 CG Assignment-Prabhat-Kumar</p>
+    </div>
+  </footer>
+<!--Footer End-->
+        
+</body>
+</html>
